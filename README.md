@@ -1,6 +1,6 @@
 <div align="center">
 
-# oxocarbon-<app-name>
+# oxocarbon-iterm2
 
 </div>
 
@@ -17,24 +17,20 @@ Oxocarbon is a set of community ports of IBM's carbon color palette and design p
 
 ## Showcase
 
-<screenshots>
+![neofetch](assets/neofetch.png)
+![colorbars](assets/colorbars.png)
 
 ## Install
 
-- Installation
+1. Download the `.itermcolors` file with the following command:
 
-## Features (optional)
+```bash
+cd $HOME/Downloads
+curl -O https://raw.githubusercontent.com/nyoom-engineering/oxocarbon-iterm2/main/oxocarbon-dark.itermcolors
+```
 
-- Special features and UI tweaks
-
-### Plugin Support (optional)
-
-- What plugins does it support
-
-## FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**\
- A: Run `:help theme`
+2. Go to `Settings -> Profiles -> Colors` and click `Color Presets` and then `import`. From the file picker, select the `.itermcolors` file in your downloads folder
+3. Reclick `Color Presets` and than select `oxocarbon-dark`
 
 ## License
 
